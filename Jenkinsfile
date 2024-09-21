@@ -13,7 +13,7 @@ stages {
     }
     stage( 'docker build'){
         steps{
-            sh 'docker build -t awscicd .'
+            sh 'docker build -t aws-cicd .'
             sh 'docker images'
         }
     }
