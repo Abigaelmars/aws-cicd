@@ -4,7 +4,7 @@ pipeline {
     environment {
         BRANCH_NAME = "main"
         GIT_URL = "https://github.com/Abigaelmars/aws-cicd.git"
-        IMAGE_TAG = "Abigaelmars/aws-cicd"
+        IMAGE_TAG = "abigaelmars/aws-cicd"
         IMAGE_VERSION = "${BUILD_NUMBER}"
     }
 stages {
